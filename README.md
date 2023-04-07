@@ -1,10 +1,13 @@
 # digit_recognition
  Digit recognition for a specific case
 This project doesn't include auto number segment because the video is of pretty high quality, and if the camera is moved, you can adjust the predict function to make it suitable for your video. I have tested the result by myself, the accuracy is nearly 100 percent except for the case that the digit is changing just at the moment of screen shot, which is hard to avoid.
-#Environment
+# Environment
 Python 3.11; Numpy & Opencv-python are needed;
+
 pip install numpy
+
 pip install opencv-python
+
 # Implementatiom
 There are four entries in the GUI as shown in the figure below.
 1. The first entry is the path of the video.
